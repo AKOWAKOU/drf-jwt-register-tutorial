@@ -14,6 +14,9 @@ In addition to the base repository, it also provides a user registration API.
  - Django REST Framework
  - dj-rest-auth
 
+## Clone Project 
+    git clone https://github.com/AKOWAKOU/Django-api/drf-jwt-register-tutorial/
+
 ## Getting started
 
 Create a new Python virtual environment
