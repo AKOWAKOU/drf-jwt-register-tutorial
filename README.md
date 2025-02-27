@@ -15,13 +15,13 @@ In addition to the base repository, it also provides a user registration API.
  - dj-rest-auth
 
 ## Clone Project 
-    git clone https://github.com/AKOWAKOU/Django-api/drf-jwt-register-tutorial/
+    git clone https://github.com/AKOWAKOU/drf-jwt-register-tutorial.git
 
 ## Getting started
 
 Create a new Python virtual environment
 ```shell
-python -m venv .venv
+python3.9 -m venv .venv
 ```
 
 Activate the virtual environment
@@ -32,6 +32,12 @@ source .venv/bin/activate
 Install required packages
 ```shell
 python -m pip install -r requirements.txt
+```
+
+
+Run Django server
+```shell
+python manage.py migrate
 ```
 
 Run Django server
